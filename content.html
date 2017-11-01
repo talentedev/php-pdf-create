@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.item {
+			text-align: center;
+			margin-left: : 2%;
+			padding: 2em;
+			font-size: 20px;
+			float: left;
+			width: 43%;
+		}
+		.title {
+			background-color: #58585a;
+			font-size: 50px;
+			color: white;
+		}
+		.sub-title {
+			font-size: 30px;
+			margin-top: 5px;
+		}
+		.content {
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<?php
+	 	$field_1 = $_POST['field_1'];
+		$field_2 = $_POST['field_2'];
+		$field_3 = $_POST['field_3'];
+		$field_4 = $_POST['field_4'];
+		$field_5 = $_POST['field_5'];
+		$field_6 = $_POST['field_6'];
+		$field_7 = $_POST['field_7'];
+	?>
+	<div class="item">
+		<div class="title">ERRATUM</div>
+		<p class="sub-title"><b>Circulaire du <?php echo $field_1; ?> Octobre au <?php echo $field_2; ?> <?php echo $field_3; ?></b></p>
+		<p class="content">Une erreur s’est produite sur notre circulaire page <?php echo $field_4; ?>,</p>
+		<p class="content"><?php echo $field_5; ?></p>
+		<p class="content"><?php echo $field_6; ?></p>
+		<p class="content"><?php echo $field_7; ?></p>
+		<p>Nous regrettons les inconvénients causés par cette situation. </p>
+		<p>Merci, La Direction</p>
+	</div>
+</body>
+</html>
