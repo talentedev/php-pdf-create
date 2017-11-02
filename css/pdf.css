@@ -6,23 +6,25 @@
 }
 .item {
   text-align: center;
-  margin-left: : 2%;
-  padding: 2em;
+  padding-top: 2em;  
+  padding-left: 3em;
   font-size: 15px;
-  float: left;
-  /*width: 43%;*/
-  font-family: "Open Sans";
 }
+
 .title {
   background-color: #58585a;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
 }
 .sub-title {
-  font-size: 25px;
-  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .content {
-  font-size: 20px;
-  line-height: 5%;
+  font-size: 13px;
+  font-weight: bold;
+}
+.footer-title {
+  font-size: 11px;
+  font-weight: bold;
 }
